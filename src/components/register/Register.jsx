@@ -46,7 +46,7 @@ export const Register = () => {
 
       <div className={styles.information}>
         <button className={styles.btn_registration}>Forgot password?</button>
-        <Link to="/" className={styles.btn_registration}>Already have an account? Sing in</Link>
+        <Link to="/cursor-HW20-react" className={styles.btn_registration}>Already have an account? Sing in</Link>
       </div>
     </div>
     

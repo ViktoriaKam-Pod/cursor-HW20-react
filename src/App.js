@@ -5,8 +5,9 @@ import { Route, Routes } from "react-router-dom";
 function App() {
   return (
     <div className='App'>
+
       <Routes>
-        <Route index element={<Login/>} />
+        <Route path='cursor-HW20-react' element={<Login/>} />
         <Route path="register" element={<Register/>}/>
       </Routes>
     </div>
